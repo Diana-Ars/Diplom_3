@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_7545d5e9-da16-46e1-9f9f-ecafd4454993@horton-short.biz', 'name': 'user_7545d5e9-da16-46e1-9f9f-ecafd4454993'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmNzc3OWVkMjgwMDAxYjYyZjQzOSIsImlhdCI6MTc1MDU5NTQ0NywiZXhwIjoxNzUwNTk2NjQ3fQ.SeYkbMwJpD4NQnDiPErBTsS_um8hZt0_zESC7HwcfiA', 'refreshToken': '2be2c62f2afe0c7244f6f6afd5249371c1ca8c12a2edff2b0404dfa0c8bd748ba1762d24bedf12cc'}
+{'success': True, 'message': 'User successfully removed'}

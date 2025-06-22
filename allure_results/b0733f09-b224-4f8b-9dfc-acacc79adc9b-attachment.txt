@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_06be26f3-62de-4852-8af6-f84d390ab8be@smith.com', 'name': 'user_06be26f3-62de-4852-8af6-f84d390ab8be'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmNzEzOWVkMjgwMDAxYjYyZjQxYyIsImlhdCI6MTc1MDU5NTM0NywiZXhwIjoxNzUwNTk2NTQ3fQ.VWgRL2MvA_Rx7I6kbbrecrvY4G6_w4BtGiqvzKr0OD8', 'refreshToken': '91ab94eda51b9e6d99de55122999077ab262bf0abe43b4ad1191952be2d332c68299f030eca30e31'}
+{'success': True, 'message': 'User successfully removed'}

@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_ef039c17-696c-4c23-ab76-a3f3629f7c68@davis.com', 'name': 'user_ef039c17-696c-4c23-ab76-a3f3629f7c68'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmODA2OWVkMjgwMDAxYjYyZjQ2NyIsImlhdCI6MTc1MDU5NTU5MCwiZXhwIjoxNzUwNTk2NzkwfQ.yjCf958oMMS1Cpd-enGyKk-tu-POhCmgpIPwdjIiX18', 'refreshToken': '953baa95f24612a7610fdd0078ad62adea12b62c088fdbfc5b77b09b041e76987ad2ab1b356c61ca'}
+{'success': True, 'message': 'User successfully removed'}

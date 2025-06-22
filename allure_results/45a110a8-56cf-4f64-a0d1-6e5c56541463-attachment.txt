@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_17a319f8-c094-4084-9eb6-ee33b03e5732@powell.net', 'name': 'user_17a319f8-c094-4084-9eb6-ee33b03e5732'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmNzMyOWVkMjgwMDAxYjYyZjQyMyIsImlhdCI6MTc1MDU5NTM3OCwiZXhwIjoxNzUwNTk2NTc4fQ.alsfq-LaW8IgDR42S92tk5S6dWvbaGndnC3zzZFQe1w', 'refreshToken': '5929c95b107af2a03d38e522d0e22455552f15a3d48fdee0d41f9e9fbcfeea851c9b6eead6d5083b'}
+{'success': True, 'message': 'User successfully removed'}

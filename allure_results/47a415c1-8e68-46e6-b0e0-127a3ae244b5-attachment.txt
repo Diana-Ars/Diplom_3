@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_9135ff19-4734-4c15-a2ff-bd7350324c4b@vargas-may.biz', 'name': 'user_9135ff19-4734-4c15-a2ff-bd7350324c4b'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOTJlOWVkMjgwMDAxYjYyZjRjOCIsImlhdCI6MTc1MDU5NTg4NiwiZXhwIjoxNzUwNTk3MDg2fQ.KA08fVaCuOasC6fXLuz1poHTvf0Q4qXnPV5_qgK4cOg', 'refreshToken': '35549b70fd731cb4b71fa00f79733e9616a4b0bea7aef155b35d5229d43077ea6245ab505144f631'}
+{'success': True, 'message': 'User successfully removed'}

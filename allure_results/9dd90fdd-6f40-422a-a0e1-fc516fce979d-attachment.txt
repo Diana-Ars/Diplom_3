@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_3a60ea15-b28c-45e1-be4e-2b42ab2d37a6@franklin-brown.com', 'name': 'user_3a60ea15-b28c-45e1-be4e-2b42ab2d37a6'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOGMzOWVkMjgwMDAxYjYyZjRhMSIsImlhdCI6MTc1MDU5NTc3OSwiZXhwIjoxNzUwNTk2OTc5fQ.OcJAxQ4J4BznnWIel9QONwXDHqqFyz0cOhsGi6jvLj4', 'refreshToken': 'ced32431c0c85a2485a7686c50ab10901f932f66f1a778dafde0021c2ba2bd186d30c8e121d3c125'}
+{'success': True, 'message': 'User successfully removed'}
