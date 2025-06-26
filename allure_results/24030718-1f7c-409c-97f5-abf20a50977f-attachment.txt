@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_467b9fc7-5db3-479c-ae50-02e65f3c6f86@watson.com', 'name': 'user_467b9fc7-5db3-479c-ae50-02e65f3c6f86'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmN2U1OWVkMjgwMDAxYjYyZjQ1ZSIsImlhdCI6MTc1MDU5NTU1NywiZXhwIjoxNzUwNTk2NzU3fQ.5JWFqq7ejwRCEyFm024EDFa2RvdRpskazOvLg_xen_o', 'refreshToken': '85f44f906a00a7b056406c3d6143255172d92ba97b00b42a8539f2982d7b48e84eba902d4f7620f5'}
+{'success': True, 'message': 'User successfully removed'}

@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_635fce0a-1207-4ef6-84fd-4dfe31f43835@rose-miller.info', 'name': 'user_635fce0a-1207-4ef6-84fd-4dfe31f43835'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmNzlkOWVkMjgwMDAxYjYyZjQ0OSIsImlhdCI6MTc1MDU5NTQ4NSwiZXhwIjoxNzUwNTk2Njg1fQ.pkZOj_7rXHLTYlrn-2peEh1x1I-Wd4rLv9d3ls9e_SQ', 'refreshToken': '5c755e3fb18a0280a5df4bf7e251b7235e95bf14f77a1fa03b83123b726f7655a441c2e44d038637'}
+{'success': True, 'message': 'User successfully removed'}

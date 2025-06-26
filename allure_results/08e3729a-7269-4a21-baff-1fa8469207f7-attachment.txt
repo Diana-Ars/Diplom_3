@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_2c838e76-df04-43b5-901a-717b88955ccf@gonzalez.net', 'name': 'user_2c838e76-df04-43b5-901a-717b88955ccf'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmODQ3OWVkMjgwMDAxYjYyZjQ3MCIsImlhdCI6MTc1MDU5NTY1NSwiZXhwIjoxNzUwNTk2ODU1fQ.brQ0dK-Tt7xORjRA1xneR_vbLc2M3EKSd4K8Ie4eSn4', 'refreshToken': '08fe0fae56301a0302f1a1ae41cc4bbce55192820817ae285d254c2ec7d1b5fbc50598607a56b8c8'}
+{'success': True, 'message': 'User successfully removed'}

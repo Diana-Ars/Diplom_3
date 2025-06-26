@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_62504ee5-54d0-4d35-a14a-7d16cd26bce4@morris-stephens.info', 'name': 'user_62504ee5-54d0-4d35-a14a-7d16cd26bce4'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmN2I3OWVkMjgwMDAxYjYyZjQ1MSIsImlhdCI6MTc1MDU5NTUxMSwiZXhwIjoxNzUwNTk2NzExfQ.Jl8KvLmic66rzQxrCfp1LsDDAptqn7HwKx2AVVvBl5M', 'refreshToken': 'e73b3e4dafcaee59dcde35a21f048a2eb3c0209ff5f62bbdeff8339ba3ba22e0524285ab1e0e60c3'}
+{'success': True, 'message': 'User successfully removed'}

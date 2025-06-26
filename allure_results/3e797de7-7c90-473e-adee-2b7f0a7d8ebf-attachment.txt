@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_6dbb0da5-f969-4213-8da9-b00a992b2a86@hawkins.com', 'name': 'user_6dbb0da5-f969-4213-8da9-b00a992b2a86'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOTQzOWVkMjgwMDAxYjYyZjRkOSIsImlhdCI6MTc1MDU5NTkwNywiZXhwIjoxNzUwNTk3MTA3fQ.PKSPfORTxsyScoBy91E9eOEa85IMwSRfkG_kyiRZ8iM', 'refreshToken': '375e85f40c0f80b6b120fe053c821bff2401169d95b2dfb50dca8a9eb0a8617c1103b9089013c385'}
+{'success': True, 'message': 'User successfully removed'}

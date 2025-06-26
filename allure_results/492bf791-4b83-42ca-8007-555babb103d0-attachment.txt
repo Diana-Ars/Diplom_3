@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_b13a0bff-e400-441d-ab44-953f482768ed@alvarez.com', 'name': 'user_b13a0bff-e400-441d-ab44-953f482768ed'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmODcxOWVkMjgwMDAxYjYyZjQ3YyIsImlhdCI6MTc1MDU5NTY5NywiZXhwIjoxNzUwNTk2ODk3fQ.dBV_yzbEBP7m-utjyFv1-dWPvtw8d69IFZrN8PdU-gg', 'refreshToken': '59a4c3b34fab1f622c061f92ca8d4d0344117a64bdb693ede1fa44a4f0b54aa5e197fd3a5bc5e6e6'}
+{'success': True, 'message': 'User successfully removed'}

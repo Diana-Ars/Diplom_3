@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_dd6613b3-3b9e-4bf5-bb47-1e84a5cb9f0c@underwood-boyer.com', 'name': 'user_dd6613b3-3b9e-4bf5-bb47-1e84a5cb9f0c'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOTFlOWVkMjgwMDAxYjYyZjRjMSIsImlhdCI6MTc1MDU5NTg3MCwiZXhwIjoxNzUwNTk3MDcwfQ.1OA1HusmSqLO4NQbKch7ohD0sIuzzKi4xqwYsruZuJU', 'refreshToken': '39625e22481d2d92dc85470f3a079cdb4355575483b5f28d5565dee0bcf7cb8ecd1f17b19139557a'}
+{'success': True, 'message': 'User successfully removed'}

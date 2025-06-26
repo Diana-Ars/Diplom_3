@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_60a263a1-c7be-472a-b1b3-70a7dfe90bf6@martin.com', 'name': 'user_60a263a1-c7be-472a-b1b3-70a7dfe90bf6'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmODJlOWVkMjgwMDAxYjYyZjQ2YyIsImlhdCI6MTc1MDU5NTYzMCwiZXhwIjoxNzUwNTk2ODMwfQ.I1W-BuXEWQ02Msvkw9aISuPPW8OhZBtvIjqku7OtjYM', 'refreshToken': 'b512c3dbd233a8a428b28af1504f1b07331d280fdba5e7459ebd45de245251bccd65b5287701b5a8'}
+{'success': True, 'message': 'User successfully removed'}

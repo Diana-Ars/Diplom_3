@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_a4660cbd-5a2f-42d3-9bb3-541b04e0e6af@cantu.com', 'name': 'user_a4660cbd-5a2f-42d3-9bb3-541b04e0e6af'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOGY3OWVkMjgwMDAxYjYyZjRiNyIsImlhdCI6MTc1MDU5NTgzMSwiZXhwIjoxNzUwNTk3MDMxfQ.mBu3bfhieek1j0iE37MoWfHl8wEYdsW7OyKpX661_7E', 'refreshToken': 'ffd04ba880a2b696a086b1484f03941d07857fd938ce4c04804ef7950d00be1c1f4149deb9949da5'}
+{'success': True, 'message': 'User successfully removed'}

@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_51967769-3a0c-480f-87bd-6949b62293c7@frazier-whitney.com', 'name': 'user_51967769-3a0c-480f-87bd-6949b62293c7'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmODhkOWVkMjgwMDAxYjYyZjQ4YiIsImlhdCI6MTc1MDU5NTcyNSwiZXhwIjoxNzUwNTk2OTI1fQ.KOfSBfYwW32ttjqjVi3F0P0ZPhPTCiQCxJcns4zcFJI', 'refreshToken': '6f2c9a50376026588ce4534b69fa155b5b9ea7da922b26518e7d571be402d7e0742e52fae2e007b1'}
+{'success': True, 'message': 'User successfully removed'}

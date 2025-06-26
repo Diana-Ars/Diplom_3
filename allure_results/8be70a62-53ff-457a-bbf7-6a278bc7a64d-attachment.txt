@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_6edfcec1-2f4f-43d4-b9c3-2b239ee9c910@peters.com', 'name': 'user_6edfcec1-2f4f-43d4-b9c3-2b239ee9c910'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOGFmOWVkMjgwMDAxYjYyZjQ5YSIsImlhdCI6MTc1MDU5NTc1OSwiZXhwIjoxNzUwNTk2OTU5fQ.ze28wPyQraBNdw8NUA8TEjr90407gXIiKsC_ctLHkHk', 'refreshToken': '1d8ef0739c8f703a83fe260ba1c321462d48011ca1103ba97dd5693eefb2827b2dee0ca2963e5261'}
+{'success': True, 'message': 'User successfully removed'}

@@ -1,0 +1,2 @@
+{'success': True, 'user': {'email': 'test_6c1200e9-10c5-4159-b1b6-f78140368e42@clark.info', 'name': 'user_6c1200e9-10c5-4159-b1b6-f78140368e42'}, 'accessToken': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTdmOGUzOWVkMjgwMDAxYjYyZjRhZSIsImlhdCI6MTc1MDU5NTgxMSwiZXhwIjoxNzUwNTk3MDExfQ.UHi5pkrPVVpMrHOyMsd-cXkEQiFgMsHMXyAQmBSYP78', 'refreshToken': 'd55f03b152d109336ea3832aa3f99e474458a04aff5023d68f749232af928ef27de0eae47eb48a63'}
+{'success': True, 'message': 'User successfully removed'}
