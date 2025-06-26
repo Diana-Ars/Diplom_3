@@ -4,6 +4,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from seletools.actions import drag_and_drop
 
+from curl import main_site
+
+
 class BasePage:
     def __init__(self, driver):
         self.driver = driver
@@ -51,7 +54,6 @@ class BasePage:
     @allure.step("Ждем когда элемент исчезнет")
     def wait_element_disappear(self, locator):
         WebDriverWait(self.driver, timeout=10).until(EC.invisibility_of_element_located(locator))
-        return True
 
     @allure.step('Перетащить элемент в корзину')
     def drag_and_drop_element(self, source, target):
@@ -62,4 +64,8 @@ class BasePage:
     @allure.step('Дождаться появления нужного элемента')
     def wait_for_some_element(self, locator):
         return WebDriverWait(self.driver, timeout=7).until(EC.presence_of_element_located(locator))
+
+    @allure.step('Открыть главную страницу')
+    def open_main_site(self):
+        self.driver.get(main_site)
 

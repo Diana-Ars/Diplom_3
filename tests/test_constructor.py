@@ -36,8 +36,8 @@ class TestConstructor:
         main_page.wait_for_main_page()
         main_page.click_to_ingredient(ingredient)
         main_page.check_window_info_of_ingredient_open()
-        ingredient_info_window_close = main_page.close_window_info_of_ingredient()
-        assert ingredient_info_window_close == True
+        close_window = main_page.close_window_info_of_ingredient()
+        assert close_window
 
     @allure.title('Проверка увеличения счетчика ингредиента при добавлении ингредиента в заказ')
     def test_ingredient_count_increase_when_ingredient_add(self, driver):
@@ -45,7 +45,7 @@ class TestConstructor:
         main_page.wait_for_main_page()
         ingredient1_increased, ingredient2_increased, ingredient3_increased = (
             main_page.check_counter_increasing_when_ingredient_add())
-        assert ingredient1_increased == True
-        assert ingredient2_increased == True
-        assert ingredient3_increased == True
+        assert ingredient1_increased
+        assert ingredient2_increased
+        assert ingredient3_increased
 

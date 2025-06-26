@@ -36,7 +36,8 @@ class TestRecoverPassword:
         recover_password_page = RecoverPasswordPage(driver)
         recover_password_page.wait_for_recover_password_page()
         recover_password_page.fill_email(data.test_email)
-        assert recover_password_page.check_text_on_email_field(data.test_email) == True
+        email_text_presence_in_field = recover_password_page.check_text_on_email_field(data.test_email)
+        assert email_text_presence_in_field
 
     @allure.title('Проверка перехода на страницу восстановления пароля после клика на кнопку Восстановить')
     def test_click_to_button_recover(self, driver):
@@ -71,5 +72,5 @@ class TestRecoverPassword:
         recover_password_page.click_on_button_recover()
         recover_password_page.wait_for_save_recover_password_page()
         password_field_focused = recover_password_page.check_password_field_focused_after_click()
-        assert password_field_focused == True
+        assert password_field_focused
 

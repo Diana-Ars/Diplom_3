@@ -10,8 +10,8 @@ from pages.main_page import MainPage
 class TestPersonalAcc:
     @allure.title('Проверка перехода в личный кабинет с главной страницы')
     def test_enter_to_personal_acc_from_main_page(self, driver, login_user):
-        driver.get(main_site)
         main_page = MainPage(driver)
+        main_page.open_main_site()
         main_page.wait_for_main_page()
         main_page.click_to_button_enter_to_personal_acc()
 
@@ -21,8 +21,8 @@ class TestPersonalAcc:
 
     @allure.title('Проверка перехода в раздел История заказов')
     def test_switch_to_orders_history_from_main_page(self, driver, login_user):
-        driver.get(main_site)
         main_page = MainPage(driver)
+        main_page.open_main_site()
         main_page.wait_for_main_page()
         main_page.click_to_button_enter_to_personal_acc()
 
@@ -33,8 +33,8 @@ class TestPersonalAcc:
 
     @allure.title('Проверка выхода из аккаунта')
     def test_logout(self, driver, login_user):
-        driver.get(main_site)
         main_page = MainPage(driver)
+        main_page.open_main_site()
         main_page.wait_for_main_page()
         main_page.click_to_button_enter_to_personal_acc()
 

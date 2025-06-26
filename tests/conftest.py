@@ -1,6 +1,5 @@
 import pytest
-import requests
-import time
+from api import UserApi
 
 import curl
 from curl import *
@@ -38,12 +37,8 @@ def create_user(driver):
         "password": fake.password(),
         "name": f"user_{unique_login}"
     }
-    creation = requests.post(curl.url_create_user, json=user_data)
-    print(creation.json())
-    if creation.status_code != 200:
-        creation = requests.post(curl.url_create_user, json=user_data)
-    assert creation.status_code == 200
-    token = creation.json().get('accessToken')
+    user_api = UserApi()
+    token = UserApi.get_user_token_api(user_data)
     user = {
         'email': user_data['email'],
         'name': user_data['name'],
@@ -54,8 +49,7 @@ def create_user(driver):
         }
     }
     yield user
-    delete_user = requests.delete(curl.url_delete_user, headers={'Authorization': token})
-    print(delete_user.json())
+    delete_user = UserApi.delete_user_api(token)
 
 @pytest.fixture
 def login_user(driver, create_user):               # Фикстура для авторизации пользователя
@@ -86,9 +80,9 @@ def check_previous_count_of_orders(driver):
 def login_user_and_create_order(driver, login_user, check_previous_count_of_orders):
     # Предварительно получаем значение счетчиков Заказы за все время и Заказы за сегодня
     previous_count_all_time, previous_count_today = check_previous_count_of_orders
-    driver.get(main_site)
 
     main_page = MainPage(driver)
+    main_page.open_main_site()
     main_page.wait_for_main_page()
     main_page.put_ingredients_in_order()
     main_page.click_to_button_create_order()
@@ -98,8 +92,8 @@ def login_user_and_create_order(driver, login_user, check_previous_count_of_orde
 
 @pytest.fixture   # Фикстура для получения номеров заказов авторизованного пользователя из Истории заказов
 def get_order_numbers_from_history(driver, login_user_and_create_order):
-    driver.get(main_site)
     main_page = MainPage(driver)
+    main_page.open_main_site()
     main_page.wait_for_main_page()
     main_page.put_ingredients_in_order()
     main_page.click_to_button_create_order()
